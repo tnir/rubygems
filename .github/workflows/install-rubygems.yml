@@ -107,7 +107,7 @@ jobs:
           ruby-version: ${{ matrix.ruby.value }}
           bundler: none
       - name: Setup java
-        uses: actions/setup-java@19eeec562b37d29a1ad055b7de9c280bd0906d8d # v3.7.0
+        uses: actions/setup-java@9b86bbe88a8152e5b9e6c15fd2e0efdd2994ffb6 # v3.7.0
         with:
           distribution: temurin
           java-version: 18.0.0
